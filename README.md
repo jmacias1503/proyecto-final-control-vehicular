@@ -4,6 +4,9 @@
 - [Entregables](#entregables)
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Consideraciones Extra](#consideraciones-extra)
+- [Herramientas a Utilizar](#herramientas-a-utilizar)
+- [Flujo de Desarrollo](#flujo-de-desarrollo)
+- [Template HTML](#template-html)
 
 ## Requerimientos funcionales
 - Administrar la información organizacional referente a control vehicular:
@@ -74,4 +77,44 @@ app/
   - Una vez terminado el documento, los archivos serán eliminados
 - Tanto el esquema, como los archivos generados serán escritos en inglés y en *snake case*
 - Al momento de generar respaldos, por cada archivo creado, se generará un archivo xml individual, y será guardado con el siguiente formato: `documentType_idDocument.xml`
+- TODO cambio al esquema será en el script de inicialización de la base de datos
 - PLUS. Hacer que el usuario solo pueda acceder a sus propios archivos
+## Herramientas a Utilizar
+- PHP
+  - FPDF
+  - mysqli
+  - base64\_decode
+- MySQL
+- Docker
+- HTML
+- CSS
+## Flujo de Desarrollo
+- Se trabajará en forks
+- Las contribuciones serán realizadas en PR. Priorizar que las PR engloben una sola funcionalidad implementada o fix
+
+### Template HTML
+```html
+<!DOCTYPE HTML>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path-a-estilos">
+  </head>
+  <title>Título de la página</title>
+  <body>
+    <header>
+        <p>Sistema de Control Vehicular. Proyecto de Desarrollo de Sistemas de Internet 25-1</p>
+    </header>
+    <main>
+        Contenido...
+    </main>
+    <footer>
+        <div>325724, Juárez Ramírez Gabriel</div>
+        <div>325724, Macías Fonseca Alejandro</div>
+        <div>325724, Mata Guerra David</div>
+        <div>Grupo 31</div>
+    </footer>
+  </body>
+</html>
+```
