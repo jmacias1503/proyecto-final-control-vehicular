@@ -113,9 +113,9 @@ app/
         Contenido...
     </main>
     <footer>
-        <div>325724, Juárez Ramírez Gabriel</div>
+        <div>325846, Juárez Ramírez Gabriel</div>
         <div>325724, Macías Fonseca Alejandro</div>
-        <div>325724, Mata Guerra David</div>
+        <div>325797, Mata Guerra David</div>
         <div>Grupo 31</div>
     </footer>
   </body>
