@@ -45,6 +45,9 @@ init-script.sql
 app/
 |   Dockerfile #Dockerfile para imagen de apache
 |   index.html #login
+|   assets/
+|   |   img/
+|   |   css/
 |   backups/
 |   |   driver-licenses/
 |   |   driving-permits/
