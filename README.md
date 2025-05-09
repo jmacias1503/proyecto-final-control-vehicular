@@ -94,6 +94,7 @@ app/
 ## Flujo de Desarrollo
 - Se trabajará en forks
 - Las contribuciones serán realizadas en PR. Priorizar que las PR engloben una sola funcionalidad implementada o fix
+- Toda PR será evaluada por las otras dos partes involucradas
 
 ### Template HTML
 ```html
