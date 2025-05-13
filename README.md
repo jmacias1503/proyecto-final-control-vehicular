@@ -57,6 +57,7 @@ app/
 |   lib/ # librerias utilizadas
 |   |   fpdf/ #código fuente de fpdf
 |   |   controller.php # controlador de db
+|   |   validation.php # validador de sesiones
 |   models/ # Consultas y generacion de pdf
 |   |   delete/
 |   |   insert/
