@@ -81,6 +81,7 @@ app/
 - Tanto el esquema, como los archivos generados serán escritos en inglés y en *snake case*
 - Al momento de generar respaldos, por cada archivo creado, se generará un archivo xml individual, y será guardado con el siguiente formato: `documentType_idDocument.xml`
 - TODO cambio al esquema será en el script de inicialización de la base de datos
+- Todos los formularios serán enviados con POST, mientras que todos los modelos utilizarán el método `_REQUEST`
 - PLUS. Hacer que el usuario solo pueda acceder a sus propios archivos
 ## Herramientas a Utilizar
 - PHP
