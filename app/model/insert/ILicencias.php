@@ -1,5 +1,5 @@
 <?php
-include("../../controller.php");
+include("../../lib/controller.php");
     $IdLicencia = $_REQUEST['IdLicencia'];
     $ValidoHasta = $_REQUEST['ValidoHasta'];
     $Antiguedad = $_REQUEST['Antiguedad'];

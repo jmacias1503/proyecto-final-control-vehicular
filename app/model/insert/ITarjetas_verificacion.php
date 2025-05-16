@@ -1,5 +1,5 @@
 <?php
-  include("../../controller.php");
+  include("../../lib/controller.php");
   $FolioVerificacion = $_GET['FolioVerificacion'];
   $HoraSalida = $_GET['HoraSalida'];
   $MotivoVerificacion = $_GET['MotivoVerificacion'];

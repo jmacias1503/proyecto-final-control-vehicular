@@ -1,5 +1,5 @@
 <?php
-  include("../../controller.php");
+  include("../../lib/controller.php");
     $IdSerie = $_REQUEST['IdSerie'];
     $FolioCirculacion = $_REQUEST['FolioCirculacion'];
     $IdPropietario = $_REQUEST['IdPropietario'];

@@ -1,5 +1,5 @@
 <?php
-  include("../../controller.php");
+  include("../../lib/controller.php");
   $IdPropietario = $_GET['IdPropietario'];
   $CURP = $_GET['CURP'];
 

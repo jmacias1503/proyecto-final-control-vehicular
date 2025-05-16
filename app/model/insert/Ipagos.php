@@ -1,5 +1,5 @@
 <?php
-  include("../../controller.php");
+  include("../../lib/controller.php");
   $id = $_POST['id'];
   $transaccion = $_POST['transaccion'];
   $folio = $_POST['folio'];

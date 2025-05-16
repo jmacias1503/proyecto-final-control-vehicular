@@ -1,5 +1,5 @@
 <?php
-include("../../controller.php");
+include("../../lib/controller.php");
   $FolioMultas = $_REQUEST['FolioMultas'];
   $IdPago = $_REQUEST['IdPago'];
   $FolioVerificacion = $_REQUEST['FolioVerificacion'];

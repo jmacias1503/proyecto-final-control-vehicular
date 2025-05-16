@@ -1,5 +1,5 @@
 <?php
-  include("../../controller.php");
+  include("../../lib/controller.php");
   $idCentro = $_POST['IdCentro'];
   $idDomicilio = $_POST['IdDomicilio'];
   $nombre = $_POST['Nombre'];

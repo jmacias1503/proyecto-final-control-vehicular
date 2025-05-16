@@ -1,5 +1,5 @@
 <?php
-include("../../controller.php");
+include("../../lib/controller.php");
   $IdDomicilio = $_GET['IdDomicilio'];
   $NumInt = $_GET['NumInt'];
   $NumExt = $_GET['NumExt'];

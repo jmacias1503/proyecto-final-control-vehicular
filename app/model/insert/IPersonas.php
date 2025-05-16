@@ -1,5 +1,5 @@
 <?php
-include("../../controller.php");
+include("../../lib/controller.php");
     $CURP = $_REQUEST['CURP'];
     $Nombre = $_REQUEST['Nombre'];
     $ApellidoP = $_REQUEST['ApellidoP'];

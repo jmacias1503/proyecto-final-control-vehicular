@@ -1,5 +1,5 @@
 <?php
-  include("../../controller.php");
+  include("../../lib/controller.php");
     $id = $_REQUEST['id'];
     $numero_placa = $_REQUEST['numero_placa'];
     $curp = $_REQUEST['curp'];
